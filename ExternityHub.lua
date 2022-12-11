@@ -51,7 +51,7 @@ VisualSection:NewButton("ESP", "Executes the ESP Script", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/nqyGkWvx",true))()
 end)
 
--- Player
+-- Others
 local Player = Window:NewTab("Others")
 local PlayerSection = Player:NewSection("Others")
 
@@ -66,3 +66,8 @@ PlayerSection:NewButton("AntiAFK", "Executes the Anti AFK Script", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/KHZ8pYx9"))() 
     Fly(true)
 end)
+
+-- About
+local About = Window:NewTab("About")
+local AboutSection = About:NewSection("Created by CorruptedBytes#1234")
+local AboutSection2 = About:NewSection("Version: 1.0.0")
