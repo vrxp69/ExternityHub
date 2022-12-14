@@ -81,8 +81,10 @@ PlayerSection:NewButton("AntiAFK", "Executes the Anti AFK Script", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/KHZ8pYx9"))() 
     Fly(true)
 end)
+PlayerSection:NewKeybind("ToggleUI", "Toggles the UI", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
 
--- About
 local About = Window:NewTab("About")
 local AboutSection = About:NewSection("Created by CorruptedBytes#1234")
-local AboutSection2 = About:NewSection("Version: 1.0.0")
+local AboutSection2 = About:NewSection("Version: 1.0.3")
