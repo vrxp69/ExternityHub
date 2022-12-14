@@ -43,6 +43,20 @@ end)
 FESection:NewButton("FE Fling GUI", "Executes the Fling GUI Script", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/rPLeYXqj'),true))()
 end)
+FESection:NewButton("FE Headless", "Removes your Head", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/uLXkrg76'),true))()
+end)
+FESection:NewButton("FE Gun", "Gives you a Gun", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/aWfWtnen'),true))()
+end)
+FESection:NewButton("OPFinality FE GUI", "Executes the OPFinality Script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/!%20%5BFE%5D%20OPFinality%20Gui%20%5BBEST%5D.lua'),true))()
+end)
+FESection:NewButton("FE Sword", "Gives you a sword", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/mhxekj7V'),true))()
+end)
+
+
 
 -- Visual
 local VisualSection = Scripts:NewSection("Visual")
@@ -50,6 +64,7 @@ local VisualSection = Scripts:NewSection("Visual")
 VisualSection:NewButton("ESP", "Executes the ESP Script", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/nqyGkWvx",true))()
 end)
+
 
 -- Others
 local Player = Window:NewTab("Others")
