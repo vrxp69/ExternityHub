@@ -71,6 +71,10 @@ end)
 FESection:NewButton("FE Sword", "Gives you a sword", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/mhxekj7V'),true))()
 end)
+FESection:NewButton("Universal FE Hub", "Executes the Universal FE Hub Script", function()
+    loadstring(game:HttpGet(('loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+'),true))()
+end)
 
 
 
