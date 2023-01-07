@@ -72,8 +72,7 @@ FESection:NewButton("FE Sword", "Gives you a sword", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/mhxekj7V'),true))()
 end)
 FESection:NewButton("Universal FE Hub", "Executes the Universal FE Hub Script", function()
-    loadstring(game:HttpGet(('loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
-'),true))()
+    loadstring(game:HttpGet(('http://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'),true))()
 end)
 
 
@@ -109,4 +108,4 @@ end)
 
 local About = Window:NewTab("About")
 local AboutSection = About:NewSection("Created by CorruptedBytes#1234")
-local AboutSection2 = About:NewSection("Version: 1.0.3")
+local AboutSection2 = About:NewSection("Version: 1.0.5")
