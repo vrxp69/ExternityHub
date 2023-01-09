@@ -107,5 +107,5 @@ PlayerSection:NewKeybind("ToggleUI", "Toggles the UI", Enum.KeyCode.RightControl
 end)
 
 local About = Window:NewTab("About")
-local AboutSection = About:NewSection("Created by CorruptedBytes#1234")
+local AboutSection = About:NewSection("Created by CorruptedBytes#5643")
 local AboutSection2 = About:NewSection("Version: 1.0.5")
