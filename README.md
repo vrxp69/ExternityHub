@@ -23,7 +23,7 @@
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-```bash
+```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PServerYT/ExternityHub/main/ExternityHub.lua"))()
 ```
 
