@@ -24,7 +24,7 @@
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 ```bash
-$ loadstring(game:HttpGet("https://raw.githubusercontent.com/PServerYT/ExternityHub/main/ExternityHub.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PServerYT/ExternityHub/main/ExternityHub.lua"))()
 ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
